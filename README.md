@@ -6,6 +6,7 @@ Developed by Mihnea Petcu Faculty of Electronics, Telecommunications and Informa
 ---
 
 ## 📱 About the App
+![image](https://github.com/user-attachments/assets/bceddf39-18e1-457d-a3a9-c8551b23e630)
 
 Solar Sense is a mobile application developed using **React Native**, designed to monitor the energy production of small-scale photovoltaic systems (e.g., cabins, RVs, off-grid homes). It integrates with an **ESP32** microcontroller and an **INA219** current and voltage sensor to collect and transmit live energy data.
 
@@ -21,6 +22,8 @@ The app offers:
 ---
 
 ## ⚙️ System Architecture
+
+![image](https://github.com/user-attachments/assets/02ee072a-73d7-4c5b-a29b-582ffb00a2da)
 
 The application has three main components:
 - **ESP32 + INA219** hardware for data collection
@@ -44,14 +47,6 @@ Data flow:
 - ⚙️ Device management (add/remove/rename)
 - 🌙 Dark mode toggle with saved preferences
 - 🔐 Device pairing by MAC address
-
----
-
-## 📷 Screenshots
-
-![Dashboard](./assets/screens/dashboard.png)
-![History](./assets/screens/history.png)
-![WiFi Config](./assets/screens/wifi_config.png)
 
 ---
 
